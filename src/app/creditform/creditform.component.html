@@ -1,0 +1,33 @@
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            {{CardHeader}}
+        </div>
+        <div class="card-body  text-center">   
+            <div class="row">
+                <div class="col">
+                    <label for="ccType" class="col-form-label lblLeft"><b>{{CCType}}</b></label>
+                </div>
+                <div class="col">
+                    <label for="ccTypeValue" class="col-form-label lblAlign">{{CardType}}</label>
+                </div>
+                <div class="w-100"></div>
+                <div class="col">
+                    <label for="ccNumber" class="col-form-label lblLeft"><b>{{CCNumber}}</b></label>
+                </div>
+                <div class="col">
+                    <label for="ccNumberValue" class="col-form-label lblAlign">{{AccountNo}}</label>
+                </div>  
+                <div class="w-100"></div>
+                <div class="col">
+                    <label for="ccExpire" class="col-form-label lblLeft"><b>{{CCExpire}}</b></label>
+                </div>
+                <div class="col">
+                    <label for="ccExpireValue" class="col-form-label lblAlign">{{ExpDate}}</label>
+                </div>            
+            </div>          
+            <button type="button" class="btn btn-outline-primary" (click)="exitHandler()" >{{btnName}}</button>
+        </div>
+    </div>
+</div>
+
